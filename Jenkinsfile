@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def gv 
 
 pipeline {
@@ -49,3 +50,30 @@ pipeline {
  
 }
       
+=======
+pipeline {
+
+    stage any 
+    tools {
+        npm 'npm'
+    }
+    stages {
+        stage("build") {
+            steps {
+                sh "npm install"
+                sh "npm run build"
+            }
+        }
+        stage("test") {
+            steps {
+                sh "npm test"
+            }
+        }
+        stage("deploy") {
+            steps {
+                sh "npm deploy"
+            }
+        }
+    }
+}
+>>>>>>> 6ba7421 (some change)
