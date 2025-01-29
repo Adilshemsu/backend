@@ -1,7 +1,5 @@
 pipeline {
-
     stage any 
-    tools 
     stages {
         stage("build image" ) {
             steps {
