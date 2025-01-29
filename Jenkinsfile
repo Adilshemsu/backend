@@ -1,6 +1,7 @@
 pipeline {
 
     stage any 
+    tools 
     stages {
         stage("build image" ) {
             steps {
@@ -27,4 +28,3 @@ pipeline {
         }
     }
 }
->>>>>>> 6ba7421 (some change)
