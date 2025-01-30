@@ -1,5 +1,5 @@
 def buildImage () {
-    echo "it works again"
+    echo "it works again and again"
     echo "building the docker image.."
     withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
         sh "docker build -t adilnu/backend:first ."
