@@ -1,2 +1,2 @@
 # backend
-cheking if pushing triggers jenkin
+cheking if pushing triggers jenkins
