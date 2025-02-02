@@ -1,2 +1,2 @@
 # backend
-cheking if commiting triggers jenkin
+cheking if pushing triggers jenkin
